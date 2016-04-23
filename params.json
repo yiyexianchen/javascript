@@ -1,6 +1,6 @@
 {
   "name": "Javascript学习笔记",
   "tagline": "study Javascript note",
-  "body": "### javascript学习笔记.\r\n\r\n\r\n2016/4/23第一天\r\n`<console.log(\"hello  wordld\");>` \r\n\r\n*shfit+回车 换行\r\n*字符串不区分大小写 \r\n*字符串单双引号都可以\r\n",
+  "body": "### javascript学习笔记.\r\n\r\n\r\n2016/4/23第一天\r\n`<console.log(\"hello  wordld\");>` \r\n\r\n*shfit+回车 换行\r\n*字符串不区分大小写 \r\n*字符串单双引号都可以\r\n\r\n\r\nnode.js WIN+R 回车 cmd \r\n输入盘符d:回车 \r\n搜索 显示目录 dir回车",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
