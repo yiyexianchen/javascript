@@ -66,7 +66,7 @@ Boolean() 转Boolean   </p>
 凡是页面获得的都是字符串必须先转换再计算 （如果输入true 转化为NAN）只要出现NaN说明程序写错了  </p>
 
 <p>运算符号<br>
-任意数据做- 能转化自动转化(正常情况下是数字都可以  “” 空的字符串转化为0 )为数字运算 不能转的返回NAN<br>
+任意数据做- 能转化自动转化(正常情况下是数字都可以 --- “” 空的字符串转化为0--- )为数字运算 不能转的返回NAN<br>
 如果除数为0 结果为infinity无穷大   【判断数据类型 用法 typeof（5/0）】  但是（0/0）NaN报错 
 取余数（限制某个范围）（6910%100）10</p>
 
@@ -76,11 +76,26 @@ Boolean() 转Boolean   </p>
 单独用i++ == ++i<br>
 表达式内
 'var change=10;
-change=change+1;<br>
+//change=change+1;<br>
 console.log("汇报的余额："+(++change));<br>
 console.log("实际的余额："+(change++));<br>
  '
-前++ 先+1再参与表达式 后++ 先用旧值参与表达式 表达式后+1  </p>
+前++ 先+1再参与表达式 后++ 先用旧值参与表达式 表达式后+1 </p>
+
+<p>关系运算 条件判断判断大小 
+成立true 不成立false<br>
+（都转化成数字比较）布尔类型与关系运算始终转化为数字比较 
+字符串 是从第一个pk unicode编号 </p>
+
+<p>字符串比较：<br>
+undefined作比较 从null类型继承来的 undefined自动转化为null 
+undefined和null比较  结果true<br>
+===  严格相等 （不带自动类型转化的相等比较）类型和值必须都相等 --只要不确定比较类型又不希望自动转化时使用--</p>
+
+<p>isNaN()  专门用来判断一个数据是否是NaN 是NaN返回true （支持自动数据类型转换）<br>
+----和任何数字作比较 永远返回false ----<br>
+----是数字返回false 不是数字返回true ---<br>
+空字符串是数字 结果是false        </p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/yiyexianchen/javascript">Javascript学习笔记</a> is maintained by <a href="https://github.com/yiyexianchen">yiyexianchen</a>.</span>
