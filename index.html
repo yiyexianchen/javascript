@@ -23,7 +23,7 @@
 <a id="javascript学习笔记" class="anchor" href="#javascript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>javascript学习笔记.</h3>
 
 <p>2016/4/23第一天<br>
-<code>&lt;console.log("hello  wordld");&gt;</code>   </p>
+<code>console.log("hello  wordld");</code>   </p>
 
 <hr>
 
@@ -56,13 +56,16 @@ charCodeAt（0） 国际字符编号unicode<br>
 <p>强制类型转换<br>
 string： X.toString（）<br>
 number： Number（）（写法不同 一个放前面加点 一个放括号里不加点）<br>
-parseInt() 转化为整数 true 和“” 是NAN<br>
+parseInt() 转化为整数 true 和“” 是NaN<br>
 ParseFloat()认识小数点 仅认识一个小数点（不是小数点后一位 是不能乱写）<br>
 Boolean() 转Boolean   </p>
 
 <p>prompt（“提示信息”）请求用户输入数据 收据数据的对话框 用法如： promit（“请输入工资”）凡是页面获得的都是字符串必须先转换再计算 （如果输入true 转化为NAN）只要出现NAN说明程序写错了  </p>
 
 <hr>
+
+<p>运算符号 任意数据做- 能转化自动转化(正常情况下是数字都可以  “” 空的字符串转化为0 )为数字运算 不能转的返回NAN<br>
+如果除数为0 结果为infinity无穷大   【判断数据类型 用法 typeof（5/0）】  但是（0/0）NaN报错   </p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/yiyexianchen/javascript">Javascript学习笔记</a> is maintained by <a href="https://github.com/yiyexianchen">yiyexianchen</a>.</span>
