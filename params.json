@@ -1,6 +1,6 @@
 {
   "name": "Javascript学习笔记",
   "tagline": "study Javascript note",
-  "body": "### javascript学习笔记.\r\n\r\n\r\n2016/4/23第一天\r\n`<console.log(\"hello  wordld\");>` \r\n\r\n*shfit+回车 换行\r\n*字符串不区分大小写 \r\n*字符串单双引号都可以\r\n\r\n\r\nnode.js WIN+R 回车 cmd \r\n输入盘符d:回车 \r\n搜索 显示目录 dir回车\r\n进入文件夹 cd 空格   文件夹名称\r\n\r\n文件夹名称 1.按tab   2.前两个字符（精确）不输字符+tab\r\n进入文件夹 回车\r\n\r\n\r\n语法\r\n区分大小写 字符串用引号 每行语句分号结束\r\n\r\n语句：做一件事结束",
+  "body": "### javascript学习笔记.\r\n\r\n\r\n2016/4/23第一天\r\n`<console.log(\"hello  wordld\");>` \r\n\r\n*shfit+回车 换行\r\n*字符串不区分大小写 \r\n*字符串单双引号都可以\r\n\r\n\r\nnode.js WIN+R 回车 cmd \r\n输入盘符d:回车 \r\n搜索 显示目录 dir回车\r\n进入文件夹 cd 空格   文件夹名称\r\n\r\n文件夹名称 1.按tab   2.前两个字符（精确）不输字符+tab\r\n进入文件夹 回车\r\n\r\n\r\n语法\r\n区分大小写 字符串用引号 每行语句分号结束\r\n\r\n语句：做一件事结束\r\n\r\n变量：内存中专门储存数据的空间\r\n\r\ncharst utf-8必须写\r\n\r\n常量（使用：常量名=常量值） 弧度 const PI=3.1415926 (一旦创建不可改变)必须大写 var hd=PI/180*60;",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
