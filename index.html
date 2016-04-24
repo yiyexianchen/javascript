@@ -69,14 +69,18 @@ function 函数名( [形式参数] ){<br>
 }<br>
 调用函数：   var result = 函数名(实际参数);     </p>
 
-<p>定义返回值: 直接返回return值 本意退出方法并返回数据<br>
-return的值如果需要  一定要有变量接着<br>
-<code>function buy(what){  
+<p>定义返回值:<br>
+直接返回return值 本意退出方法并返回数据<br>
+-----只要在方法外部用到它的返回值 必须用return--------
+return的值如果需要  一定要有变量接着  </p>
+
+<p>返回值传参
+function buy(what){<br>
 what="香喷喷的"+"what" 
-return what;     
-}       
-var jy=buy（“饺子”）   
-console.log("jy");</code>   </p>
+return what;<br>
+}<br>
+var jy=buy（“饺子”）<br>
+console.log("jy");  </p>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/yiyexianchen">yiyexianchen</a></p>
