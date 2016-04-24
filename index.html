@@ -69,13 +69,17 @@ function 函数名( [形式参数] ){<br>
 }<br>
 调用函数：   var result = 函数名(实际参数);     </p>
 
-<p>定义返回值:<br>
-直接返回return值 本意退出方法并返回数据<br>
+<h3>
+<a id="定义返回值" class="anchor" href="#%E5%AE%9A%E4%B9%89%E8%BF%94%E5%9B%9E%E5%80%BC" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>定义返回值:</h3>
+
+<p>直接返回return值 本意退出方法并返回数据<br>
 -----只要在方法外部用到它的返回值 必须用return--------
 return的值如果需要  一定要有变量接着  </p>
 
-<p>返回值传参
-function buy(what){<br>
+<h3>
+<a id="返回值传参" class="anchor" href="#%E8%BF%94%E5%9B%9E%E5%80%BC%E4%BC%A0%E5%8F%82" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>返回值传参</h3>
+
+<p>function buy(what){<br>
 what="香喷喷的"+"what" 
 return what;<br>
 }<br>
@@ -90,7 +94,18 @@ console.log("jy");<br>
 <code>var b=c("输入第er个数字");</code><br>
 <code>alert(a);</code><br>
 <code>alert(b);</code><br>
-<code>&lt;/script&gt;</code>    </p>
+<code>&lt;/script&gt;</code> 
+比较最大值<br>
+<code>var a=4;</code><br>
+<code>b=5;</code><br>
+<code>c=8;</code><br>
+<code>function getMax(a,b,c){</code><br>
+<code>var max=a;</code><br>
+<code>max=a&gt;b?a:b;</code><br>
+<code>max=max&gt;c?max:c;</code><br>
+<code>return max;</code><br>
+<code>}</code><br>
+<code>consloe.log("最大值是"+gerMax(a,b,c));</code>  </p>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/yiyexianchen">yiyexianchen</a></p>
